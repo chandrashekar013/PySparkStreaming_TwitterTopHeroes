@@ -2,8 +2,8 @@ import tweepy
 
 consumer_key = "[insert your key here]"
 consumer_secret = "[insert your secret here]"
-access_key = "[insert your key here]"
-access_secret = "[insert your secret here]"
+access_token = "[insert your key here]"
+access_token_secret = "[insert your secret here]"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
